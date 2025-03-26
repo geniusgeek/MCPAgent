@@ -25,6 +25,7 @@ venv/
 ENV/
 env/
 .env
+mcp_env/
 
 # IDE specific files
 .idea/
@@ -32,6 +33,9 @@ env/
 *.swp
 *.swo
 .DS_Store
+
+# Cache files
+.cache/
 
 # OpenAI API Key file (if you have one)
 .env
