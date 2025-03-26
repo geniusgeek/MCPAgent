@@ -1,0 +1,9 @@
+[project]
+name = "mcp-agent"
+version = "0.1.0"
+description = "An AutoGen agent with Model Context Protocol capabilities"
+requires-python = ">=3.11"
+dependencies = [
+    "autogen>=0.8.3",
+    "openai>=1.68.2",
+]
