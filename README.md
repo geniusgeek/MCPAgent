@@ -185,3 +185,39 @@ print(f"Agent ID: {info['id']}")
 print(f"Agent Version: {info['version']}")
 print(f"Available Tools: {len(info['tools'])}")
 ```
+
+## Advanced Examples
+
+The project includes several advanced examples that demonstrate the full potential of MCPAgent:
+
+### 1. MCPFeaturesDemo
+
+Run `python mcp_features_demo.py` to see a step-by-step demonstration of all MCPAgent features:
+- Context management operations
+- Custom tool registration and usage
+- Using agents as tools
+- LLM integration with context
+
+This is the best example to start with to understand the core capabilities of MCPAgent.
+
+### 2. Agent Network
+
+Run `python agent_network_example.py` to start an interactive agent network example:
+- Simulates a social network of agents
+- Each agent has a specialized role (Coordinator, Researcher, Analyst, etc.)
+- Agents can communicate with each other through tool calls
+- You can interact with any agent and broadcast messages
+- Human input is fully supported
+
+This example demonstrates how MCPAgent enables creating complex agent networks where agents can call and interact with each other.
+
+### 3. Collaborative Project
+
+Run `python collaborative_task_example.py` to start a collaborative project simulation:
+- Team of agents working together on a shared project
+- Shared workspace context with research, analysis, and tasks
+- Task assignment and progress tracking
+- Full conversation history captured
+- Human input for setting topics and interacting with agents
+
+This example showcases how MCPAgent can be used in a structured collaborative environment where agents share a workspace and contribute to a common goal.
