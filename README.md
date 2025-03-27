@@ -1,20 +1,20 @@
-# MCPAgent for AutoGen
+# MCPAgent for AutoGen/Ag2
 
 ## Overview
 
-MCPAgent is a powerful extension to AutoGen's agent architecture that implements the Model Context Protocol (MCP). It enables seamless context sharing, standardized tool usage, and transparent interaction between agents and LLMs.
+MCPAgent is a powerful extension to AutoGen/Ag2's agent architecture that implements the Model Context Protocol (MCP). It enables seamless context sharing, standardized tool usage, and transparent interaction between agents and LLMs.
 
 This implementation allows developers to easily create MCP-capable agents by simply inheriting from the MCPAgent class.
 
 ## Features
 
-- **Transparent MCP Implementation**: Extends AutoGen's ConversableAgent with full MCP support
+- **Transparent MCP Implementation**: Extends AutoGen/Ag2's ConversableAgent with full MCP support
 - **Context Management**: Built-in tools for managing, accessing, and sharing context
 - **Tool Registration**: Easy registration of functions as MCP-compatible tools
 - **Agent Integration**: Register other agents as callable tools
 - **Multi-format Tool Calls**: Support for OpenAI function calls, explicit MCP calls, and natural language intent detection
 - **LLM Context Integration**: Automatic inclusion of relevant context in LLM prompts
-- **Minimal Configuration**: Simple inheritance pattern matching AutoGen's existing patterns
+- **Minimal Configuration**: Simple inheritance pattern matching AutoGen/Ag2's existing patterns
 
 ## Installation
 
